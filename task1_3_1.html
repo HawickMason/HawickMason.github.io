@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--声明当前页面的编码集:charset=gbk,gb2312(中文编码),utf-8(国际编码)-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+		<title>task1_3_1</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="">
+        
+        <!--
+        任务描述
+            使用 HTML 与 CSS 按照 示例图（点击查看） 实现三栏式布局。
+            左右两栏宽度固定，中间一栏根据父元素宽度填充满，最外面的框应理解为浏览器。背景色为 #eee 区域的高度取决于三个子元素中最高的高度。
+            任务注意事项
+            
+            尝试 position 和 float 的效果，思考它们的异同和应用场景。
+            注意测试不同情况，尤其是极端情况下的效果。
+            图片和文字内容请自行替换，尽可能体现团队的特色。
+            调节浏览器宽度，固定宽度和自适应宽度的效果始终符合预期。
+            改变中间一栏的内容长度，以确保在中间一栏较高和右边一栏较高时，父元素的高度始终为子元素中最高的高度。
+            其他效果图中给出的标识均被正确地实现。
+        -->
+        <link href="./css/task1_3_1.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+    <div class="container_1">       
+       <div class="container_team">
+            <img width="80px" height="80px" src="./image/pic.jpg" alt="团队logo"/>&nbsp;FuckTheDemo
+       </div>
+       
+       <div class="container_main"> 
+            <p>
+                Nothing to say~ tell me the way!
+            </p>
+       </div>
+       
+       <div class="container_logo">
+        <img width="80px" height="80px" src="./image/pic.jpg" alt="个人logo一"/>
+
+        <img width="80px" height="80px" src="./image/pic.jpg" alt="个人logo二"/>
+
+        <img width="80px" height="80px" src="./image/pic.jpg" alt="个人logo三"/>
+       </div>   
+    </div>
+</body>
+</html>

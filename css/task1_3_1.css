@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 20px;
+}
+
+div.container_1{
+    width: inherit;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    min-height: 330px;
+}
+
+div.container_1 .container_team{
+    display: block;
+    position: absolute;
+    padding: 20px;
+    width: 160px;
+    border: 1px solid #999;
+    background-color: #FFF;
+    top: 40px;
+    left: 40px;
+    font-size: 12px
+}
+
+div.container_1 .container_team img{
+    float: left;
+}
+
+div.container_1 .container_main{
+    margin-left: 220px;
+    margin-right: 140px;
+    padding: 20px;
+    border: 1px solid #999;
+    height: 200px;
+    background-color: #FFF;
+   
+}
+
+div.container_1 .container_logo{
+    display: block;
+    padding: 20px 20px 0px 20px;
+    width: 80px;
+    border: 1px solid #999;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: #FFF;
+}
+
+div.container_1 .container_logo img{
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
