@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    background-color: rgb(222,222,222);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    background-color: rgb(51,51,51);
+}
+
+header .head_logo {
+    float: left;
+    width: 100px;
+    height: 60px;
+    padding-left: 2%;
+}
+
+.box{
+    /*list-style-type: none;*/
+    margin:0px;
+    width: 336px;
+    padding-left: 65%;
+}
+
+.box li {
+    margin:15px;
+    float:left;
+}
+
+.box a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#spec{
+    color: #ccc;               
+}
+
+div.container_1{
+    margin: 20px 392px 20px 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+figure{
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #CDCDCD;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+}
+
+figure figcaption{
+    padding: 5px;       
+}
+
+div.container_aside_title{
+    border-left: 3px solid #CCC;               
+    padding: 2px 1px 1px 2px;               
+}
+
+div.container_aside_title h2{
+    margin: 5px;
+    font-size: 16px;
+}
+
+div.container_aside_form{
+    /*padding-left: 15%;*/
+}
+
+div.container_aside_form table{
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+div.container_aside_form table td.odd{
+    text-align: right;
+}
+
+div.container_aside_form table td.hint{
+    font-size:12px;
+    color: #999;
+}
+
+div#weibo{
+    clear: both;
+}
+
+footer{
+    color: #FFF;
+    font-size: 12px;
+    background-color: #000;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2{
+    font-family: SimHei;
+    font-size: 21px;
+}
+
+h3{
+    font-family: SimHei;
+    color: rgb(105,103,114);
+    font-size: 16px;
+}
+
+p.auth{
+    font-family: sans-serif;
+    color: rgb(158,150,161);
+    font-size: 12px;
+}
+
+p.firstpara{
+    text-indent: 28px;
+}
+
+table.table1{
+    width: 100%;
+    text-align: left;
+    border-collapse:collapse;
+}
+
+table.table1 th{
+    color: #FFF;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #333;               
+    border: 1px solid #CDCDCD;             
+}
+
+table.table1 td{
+    width: 40%;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #CDCDCD;               
+}
+
+table.table1 tr.last_line{
+    background-color: #CCC;
+    font-weight: 600;
+}
+
+.submit{
+    width: 100%;
+    height: 35px;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: rgb(51,85,208);
+}
+
+aside{
+    margin: 20px;
+    padding: 20px;
+    width: 310px;
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    box-shadow: 5px 5px 5px #888888;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+}
