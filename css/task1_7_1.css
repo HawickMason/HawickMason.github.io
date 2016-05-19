@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    min-width: 1024px;
+}
+
+/*****顶部栏start*****/
+header{
+    width: 100%;
+    min-width: 1024px;
+    height: 61px;
+/*border: 1px solid red;*/
+}
+
+header .logo{
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 70px;
+    background: url(../image/task7/logo.png) no-repeat;
+    float: left;
+}
+
+header .logo p{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-family: "simHei","monospace","serif";
+    font-size: 20px;
+}
+
+header .nav_bar{
+    width: 650px;
+    height: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+header .nav_bar ul{
+    list-style: none;
+}
+
+header .nav_bar ul li{
+    margin-left: 54px;    
+    float: left;
+}
+
+header .nav_bar ul li a{
+    color: #929292;
+    font-size: 14px;
+    font-family: "simHei";
+    text-decoration: none;
+    padding-bottom: 22px;
+}
+
+header .nav_bar ul li a:hover{
+    color: #ea4e4d;
+    border-bottom: 2px solid  #ea4e4d;
+}
+
+a#login{
+    color: #ea4e4d;
+}
+/*****顶部栏end*****/
+
+
+/*****top_view start*****/
+div.container_main .top_view{
+    width: 100%;
+    min-width: 1024px;
+    height: 680px;   
+    background: url(../image/task7/pic1.png) top center no-repeat;
+    background-size: cover;
+}
+
+div.container_main .top_view .top_view_mask{  
+    width: 100%;
+    min-width: 1024px;
+    height: 680px;  
+    background-color: rgba(0,0,0,0.15);
+    position: absolute;
+    top: 61px;
+}
+
+div.container_main .top_view .top_view_mask h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei","monospace","serif";
+    margin-top: 260px;
+    margin-left: 61px;
+}
+
+div.container_main .top_view .top_view_mask p{
+    width: 278px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    margin-left: 73px;
+    line-height: 33px;
+}
+
+div.container_main .top_view .top_view_btn{
+    display: block;
+    width: 330px;
+    height: 49px;
+    background-color: #e8504f;
+    color: #fff;
+    font-size: 26px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    text-decoration: none;
+    padding-top: 16px;
+    margin-top: 52px;
+    margin-left: 73px;
+}
+
+div.container_main .top_view a:hover{
+    background-color: rgba(232,80,79,0.5);
+    color: #ababab;
+}
+
+div.container_main .top_view .top_view_btn span{
+    margin-left: 115px;  
+}
+/*****top_view end*****/
+
+
+/******guideline start*****/
+div.guideline
+{
+    width: 100%;
+    min-width: 1024px;
+    height: 230px;
+}
+
+div.guideline .guide{
+
+    width: 25%;
+    height: 229px;
+    min-width: 250px;
+    float: left;
+    text-align: center;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    margin-left: -2px;
+}
+
+div.guideline .guide .guide_icon{
+    display: block;
+    margin: 46px auto;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+}
+
+div.guideline .guide_border{
+    height: 40px;
+    width: 2px;
+    background-color: #ababab;
+    float: left;
+    margin-top: 90px;
+}
+/******guideline end*****/
+
+
+/*****faq start*****/
+div.faq{
+    width: 100%;
+    min-width: 1024px;
+    height: 350px;
+    background-color: #ededed;
+    border-top: 1px solid #ededed;
+    text-align: center;
+    color: #a2a2a2;
+    font-size: 42px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    letter-spacing: 6px;
+   
+}
+/*****faq end*****/
+div.faq .faq_icon{
+    display: block;
+    width: 92px;
+    height: 91px;
+    margin: 46px auto;
+}
+
+
+/*****search_bar start*****/
+div.search_bar{
+    width: 100%;
+    min-width: 1024px;
+    height: 350px;
+    background: url(../image/task7/pic2.png) top center no-repeat;
+    background-size: cover;
+}
+
+div.search_bar .search_bar_cover{
+    width: 100%;
+    min-width: 1024px;
+    height: 350px;
+    position: absolute;
+    top: 1321px;
+    background-color: rgba(170,52,51,0.2);
+}
+
+div.search_bar .search_bar_cover h3{
+    width: 231px;
+    margin: 61px auto;
+    margin-bottom: 8px;
+    color: #fff;
+    font-family: "Microsoft YaHei","monospace","serif";
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+div.search_bar .search_bar_cover p{
+    width: 336px;
+    margin: 16px auto;
+    margin-bottom: 61px;
+    color: #eee;
+    font-size: 12px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    font-weight: normal;
+}
+
+div.search_bar .search_bar_cover .search_bar_slash{
+    margin: 0px auto;
+    width: 32px;
+    height: 3px;
+    background-color: #eee;
+}
+
+div.search_bar .search_bar_cover .search_bar_list{
+    width: 936px;
+    margin: 0 auto;
+    height: 36px;
+}
+
+div.search_bar .search_bar_cover .search_bar_list ul li{
+    width: 200px;
+    list-style: none;
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: #fff;
+}
+
+div.search_bar .search_bar_cover .search_bar_list ul li select{
+    width: 200px;
+    height: 36px;
+    font-family: "Microsoft YaHei","monospace","serif";
+    font-size: 12px;
+    color: #aaa;
+    cursor: pointer;
+    
+    padding-left:10px;
+    /*将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+  
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url(../image/task7/search_arrow.png) no-repeat scroll 173px center transparent ;
+}
+div.search_bar .search_bar_cover .search_bar_list ul li select:hover{
+    border: 1px solid rgb(191,78,72);
+}
+
+div.search_bar .search_bar_cover .search_bar_list ul li select option{
+    background-color: rgb(227,227,229);
+}
+
+div.search_bar .search_bar_cover .search_bar_list ul li a{
+    display: block;
+    width: 200px;
+    height: 35px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 14px;
+    letter-spacing: 25px;
+    background-color: rgb(191,78,72);
+    border-top: 1px solid rgb(191,78,72);
+}
+
+div.search_bar .search_bar_cover .search_bar_list ul li a span{
+    display: block;
+    margin-left: 74px;
+    margin-top: 10px;
+    width: 78px;
+}
+/*****search_bar end*****/
+
+/*****show_slot start*****/
+div.show_slot{
+    width: 100%;
+    min-width: 1024px;
+    height: 600px;
+    background-color:#f8f8f8;
+    font-family: "Microsoft YaHei","monospace","serif";
+border: 1px solid red;
+}
+
+div.show_slot .pic_container{
+    width: 1008px;
+    height: 400px;
+    margin: 88px auto;
+}
+
+div.show_slot .pic_container .pic_frame{
+    width: 203px;
+    height: 400px;
+    float: left;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: center;
+}
+
+div.show_slot .pic_container .pic_frame img{
+    display: block;
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+}
+
+div.show_slot .pic_container .pic_frame h4{
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 24px;
+}
+div.show_slot .pic_container .pic_frame p{
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 8px;
+}
+
+div.show_slot .pic_container .pic_frame h3{
+    font-weight: normal;
+    letter-spacing: 46px;
+    width: 260px;
+}
+/*****show_slot end*****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
